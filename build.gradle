@@ -11,6 +11,7 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
+apply from: 'publication.gradle'
 
 android {
     compileSdkVersion 28
